@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a B.Sc IT student and aspiring web developer.">
+    <title>Imran Kotwal | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo"><span>&lt;</span>PORTFOLIO<span>/&gt;</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="nav-button">Let's Talk<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <button class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-grid">
+                <div class="hero-content reveal">
+                    <div class="availability"><span class="status-dot"></span>Available for opportunities</div>
+                    <p class="hero-small">HELLO, I'M</p>
+                    <h1>Imran <span>Kotwal</span></h1>
+                    <h2><span id="typing-text"></span><span class="cursor">|</span></h2>
+                    <p class="hero-description">
+                        Final-year B.Sc IT student passionate about creating
+                        modern websites, useful applications and solving
+                        real-world problems through technology.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">Explore My Work<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="assets/resume.pdf" class="btn outline-btn" target="_blank">View Resume
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/imranjk02" target="_blank" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/imran-kotwal-21718b425/" target="_blank" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:your@email.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="glow glow-one"></div>
+                    <div class="glow glow-two"></div>
+                    <div class="profile-card">
+                        <div class="card-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="profile-image-wrapper">
+                            <img src="assets/profile.jpeg" alt="Imran Kotwal" class="profile-image">
+                        </div>
+
+                        <div class="profile-info">
+                            <p>Currently learning</p>
+                            <h3>Web Development</h3>
+                            <div class="code-line"><span>const</span> developer = <b>"future-ready"</b>;</div>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-one">
+                        <i class="fa-solid fa-code"></i>
+                        <div><strong>Web Dev</strong><small>Building ideas</small></div>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <i class="fa-solid fa-database"></i>
+                        <div><strong>Database</strong><small>MySQL</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator"><span>SCROLL TO EXPLORE</span><i class="fa-solid fa-arrow-down"></i></div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-number">01</span>
+                    <div><p>GET TO KNOW ME</p><h2>About Me</h2></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <h3>Turning ideas into<span>digital experiences.</span></h3>
+                        <p>
+                            I'm a final-year B.Sc Information Technology
+                            student who enjoys building websites and
+                            software applications.
+                        </p>
+                        <p>
+                            I enjoy working with HTML, CSS, JavaScript,
+                            Python, Flask and databases. My goal is to
+                            continuously improve my technical skills and
+                            build applications that solve practical
+                            problems.
+                        </p>
+                        <a href="#contact" class="text-link">Let's connect<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="about-details reveal">
+                        <div class="detail-box"><i class="fa-solid fa-location-dot"></i>
+                            <div><span>Location</span><strong>Ghansoli, Navi Mumbai</strong></div>
+                        </div>
+                        <div class="detail-box"><i class="fa-solid fa-graduation-cap"></i>
+                            <div><span>Education</span><strong>B.Sc Information Technology</strong></div>
+                        </div>
+                        <div class="detail-box">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <div><span>Specialization</span><strong>Web Development</strong></div>
+                        </div>
+                        <div class="detail-box"><i class="fa-solid fa-palette"></i>
+                            <div><span>Hobby</span><strong>Sketching & Anime</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section dark-section">
+            <div class="container">
+                <div class="section-heading reveal"><span class="section-number">02</span><div><p>MY TOOLKIT</p><h2>Skills & Technologies</h2></div></div>
+                <div class="skills-grid reveal"><div class="skill-card"><div class="skill-icon html"><i class="fa-brands fa-html5"></i></div><h3>HTML5</h3><p>Semantic & accessible structure</p></div>
+                    <div class="skill-card"><div class="skill-icon css"><i class="fa-brands fa-css3-alt"></i></div><h3>CSS3</h3><p>Responsive & modern interfaces</p></div>
+                    <div class="skill-card"><div class="skill-icon js"><i class="fa-brands fa-js"></i></div><h3>JavaScript</h3><p>Interactive web experiences</p></div>
+                    <div class="skill-card"><div class="skill-icon python"><i class="fa-brands fa-python"></i></div><h3>Python</h3><p>Application development</p></div>
+                    <div class="skill-card"><div class="skill-icon flask"><i class="fa-solid fa-flask"></i></div><h3>Flask</h3><p>Python web applications</p></div>
+                    <div class="skill-card"><div class="skill-icon database"><i class="fa-solid fa-database"></i></div><h3>MySQL</h3><p>Database management</p></div>
+                    <div class="skill-card"><div class="skill-icon git"><i class="fa-brands fa-git-alt"></i></div><h3>Git</h3><p>Version control</p></div>
+                    <div class="skill-card"><div class="skill-icon github"><i class="fa-brands fa-github"></i></div><h3>GitHub</h3><p>Code collaboration</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading reveal"><span class="section-number">03</span><div><p>SELECTED WORK</p><h2>My Projects</h2></div></div>
+
+                <div class="projects-grid">
+                    <article class="project-card featured reveal">
+                        <div class="project-number">01</div>
+                        <div class="project-content">
+                            <span class="project-type">WEB APPLICATION</span>
+                            <h3>Inventory Management System</h3>
+                            <p>
+                                A web-based system designed to manage
+                                products, stock, suppliers, courses and
+                                sales from a centralized dashboard.
+                            </p>
+                            <div class="project-tags"><span>Flask</span><span>MySQL</span><span>Bootstrap</span></div>
+                            <a href="#" class="project-link">View Project<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-number">02</div>
+                        <div class="project-content">
+                            <span class="project-type">WEB PROJECT</span>
+                            <h3>Car Rental Platform</h3>
+                            <p>
+                                A modern car rental website that allows 
+                                users to explore cars, view rental details, 
+                                select vehicles, and manage their bookings.
+                            </p>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <a href="https://driveease-car-rental-platform.netlify.app/" class="project-link">View Project<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-number">03</div>
+                        <div class="project-content">
+                            <span class="project-type">WEB APPLICATION</span>
+                            <h3>Help Desk System</h3>
+                            <p>
+                                A ticket management platform for
+                                organizing support requests and
+                                improving issue tracking.
+                            </p>
+                            <div class="project-tags"><span>Python</span><span>Flask</span><span>MySQL</span></div>
+                            <a href="https://helpdesk-system-33yq.onrender.com/" class="project-link">View Project<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-number">04</div>
+                        <div class="project-content">
+                            <span class="project-type">FRONTEND</span>
+                            <h3>Crypto Dashboard</h3>
+                            <p>
+                                A responsive dashboard interface for
+                                displaying cryptocurrency market data
+                                and information.
+                            </p>
+                            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <a href="https://crypto-dashboard-agp5.onrender.com/" class="project-link">View Project<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section dark-section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-number">04</span>
+                    <div><p>MY JOURNEY</p><h2>Education</h2></div>
+                </div>
+                <div class="timeline reveal">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">CURRENT</div>
+                        <div class="timeline-content">
+                            <span>Bachelor's Degree</span>
+                            <h3>B.Sc Information Technology</h3>
+                            <p>
+                                Karmaveer Bhaurao Patil College,
+                                Vashi
+                            </p>
+                            <small>Final Year</small>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">SKILLS</div>
+                        <div class="timeline-content">
+                            <span>Continuous Learning</span>
+                            <h3>Web Development & Programming</h3>
+                            <p>
+                                Learning through projects, internships
+                                and practical development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-intro reveal">
+                        <span class="section-number">05</span>
+                        <p class="contact-label">HAVE AN IDEA?</p>
+                        <h2>Let's build something<span>great.</span></h2>
+                        <p>
+                            Whether it's a project, internship,
+                            collaboration or just a conversation,
+                            feel free to reach out.
+                        </p>
+                        <div class="contact-socials">
+                            <a href="https://github.com/imranjk02" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/imran-kotwal-21718b425/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=imrankotwal02@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <form id="contactForm" class="contact-form reveal" novalidate>
+                        <div class="input-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name">
+                            <small id="nameError"></small>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com">
+                            <small id="emailError"></small>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..."></textarea>
+                            <small id="messageError"></small>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">Send Message<i class="fa-solid fa-paper-plane"></i></button>
+                        <p id="formStatus"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <a href="#home" class="logo"><span>&lt;</span>PORTFOLIO<span>/&gt;</span></a>
+                <p>Designed & built with passion.</p>
+            </div>
+            <div class="footer-right">
+                <p>© <span id="year"></span> PORTFOLIO</p>
+                <a href="#home">Back to top ↑</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init({publicKey: "Ig-mjp2-BdnZsmGRd"});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
